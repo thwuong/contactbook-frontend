@@ -9,7 +9,7 @@
       @keyup.enter="submit"
     />
   </div>
-  <div class="input-group">
+  <div class="w-25">
     <button class="btn btn-outline-secondary" type="button" @click="submit">
       <i class="fas fa-search"></i> Tìm kiếm
     </button>

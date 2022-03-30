@@ -31,7 +31,7 @@ export default {
       selectedIndex: this.activeIndex,
     };
   },
-  methos: {
+  methods: {
     select(index) {
       this.selectedIndex = index;
       this.$emit("update:activeIndex", index);
